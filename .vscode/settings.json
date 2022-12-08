@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "HelloWorld.C": "cpp",
+        "cmath": "c",
+        "*.tcc": "c"
+    }
+}
