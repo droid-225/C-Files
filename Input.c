@@ -7,9 +7,9 @@ int main() {
     int age;
 
     printf("What's your name? ");
-    //scanf("%s", &name); // & is required to link input with variable
+    scanf("%s", &name); // & is required to link input with variable
     // scanf does not read white spaces, but fgets does
-    fgets(name, 25, stdin); // (variable name, input size, stdin)
+    //fgets(name, 25, stdin); // (variable name, input size, stdin)
     // fgets also includes new line character or enter key
     name[strlen(name) - 1] = '\0'; // removes new line character/ enter key at end
 
